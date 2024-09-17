@@ -269,4 +269,39 @@
     margin-top: 1rem;
     color: #555;
   }
-      
+  
+}
+
+.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin: 10px 0;
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-icon {
+    width: 24px; /* Ukuran ikon */
+    height: 24px; /* Ukuran ikon */
+    margin-right: 8px; /* Jarak antara ikon dan teks */
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+}
