@@ -1,0 +1,272 @@
+/* Reset CSS dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Gaya umum untuk body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  /* Gaya untuk header */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  header h1 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Gaya untuk main content */
+  main {
+    padding: 1rem;
+  }
+  
+  .intro, .contact, .about, .qa, .gallery {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
+  }
+  
+  .intro h2, .contact h2, .about h2, .qa h2, .gallery h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .intro .button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .intro .button:hover {
+    background: #555;
+  }
+  
+  .intro-content {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .intro-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .quote {
+    font-style: italic;
+    margin-top: 1rem;
+    color: #555;
+  }
+  
+  /* Gaya untuk Q&A */
+  .qa-item {
+    margin-bottom: 1rem;
+  }
+  
+  .qa-question {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .qa-question:hover {
+    background: #555;
+  }
+  
+  .qa-icon {
+    font-size: 1.2rem;
+    display: inline-block;
+    width: 1.5rem;
+    text-align: center;
+  }
+  
+  .qa-answer {
+    display: none;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Gaya untuk Galeri */
+  .gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .gallery-item {
+    flex: 1 1 calc(33.333% - 1rem);
+    position: relative;
+  }
+  
+  .gallery-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+  }
+  
+  /* Gaya untuk Kontak */
+  .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-list a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact-list a:hover {
+    text-decoration: underline;
+  }
+/* Gaya untuk Galeri */
+.gallery {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
+  }
+  
+  .filter-buttons {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .filter-button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .filter-button:hover {
+    background: #555;
+  }
+  
+  .gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .gallery-item {
+    flex: 1 1 calc(33.333% - 1rem);
+    position: relative;
+  }
+  
+  .gallery-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+  }
+/* Gaya untuk bagian pengantar */
+.intro-content {
+    text-align: center;
+    margin: 1rem 0;
+    position: relative; /* Untuk positioning foto */
+  }
+  
+  .intro-photos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Jarak antara foto dan tombol */
+    flex-wrap: wrap;
+  }
+  
+  .intro-photos {
+    display: flex;
+    align-items: center;
+    overflow: hidden; /* Untuk memastikan foto yang berlebihan tidak tampil */
+  }
+  
+  .intro-photo {
+    max-width: 150px; /* Ukuran maksimum foto yang lebih besar */
+    height: auto;
+    margin: 0 10px; /* Mengatur jarak antar foto */
+    transition: transform 0.3s ease; /* Animasi saat hover */
+  }
+  
+  .intro-photo:hover {
+    transform: scale(1.1); /* Membesar foto saat hover */
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 20px; /* Jarak antara tombol dan foto */
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Warna tombol saat hover */
+  }
+  
+  .quote {
+    font-style: italic;
+    margin-top: 1rem;
+    color: #555;
+  }
+      

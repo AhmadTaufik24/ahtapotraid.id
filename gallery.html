@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Fotografi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio Fotografi</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="gallery.html">Galeri</a></li>
+        <li><a href="about.html">Tentang Saya</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="gallery">
+      <h2>Galeri</h2>
+      <div class="filter-buttons">
+        <button class="filter-button" data-category="all">Semua</button>
+        <button class="filter-button" data-category="nature">wedding</button>
+        <button class="filter-button" data-category="portrait">Preewedding</button>
+        <button class="filter-button" data-category="urban">Birthday</button>
+        <button class="filter-button" data-category="wildlife">Profile</button>
+        <button class="filter-button" data-category="abstract">Abstrak</button>
+      </div>
+      <div class="gallery-grid">
+        <!-- Alam -->
+        <div class="gallery-item" data-category="nature">
+          <img src="path/to/nature1.jpg" alt="Nature 1" class="gallery-img">
+        </div>
+        <div class="gallery-item" data-category="nature">
+          <img src="path/to/nature2.jpg" alt="Nature 2" class="gallery-img">
+        </div>
+
+        <!-- Potret -->
+        <div class="gallery-item" data-category="portrait">
+          <img src="path/to/portrait1.jpg" alt="Portrait 1" class="gallery-img">
+        </div>
+        <div class="gallery-item" data-category="portrait">
+          <img src="path/to/portrait2.jpg" alt="Portrait 2" class="gallery-img">
+        </div>
+
+        <!-- Perkotaan -->
+        <div class="gallery-item" data-category="urban">
+          <img src="path/to/urban1.jpg" alt="Urban 1" class="gallery-img">
+        </div>
+        <div class="gallery-item" data-category="urban">
+          <img src="path/to/urban2.jpg" alt="Urban 2" class="gallery-img">
+        </div>
+
+        <!-- Fauna -->
+        <div class="gallery-item" data-category="wildlife">
+          <img src="path/to/wildlife1.jpg" alt="Wildlife 1" class="gallery-img">
+        </div>
+        <div class="gallery-item" data-category="wildlife">
+          <img src="path/to/wildlife2.jpg" alt="Wildlife 2" class="gallery-img">
+        </div>
+
+        <!-- Abstrak -->
+        <div class="gallery-item" data-category="abstract">
+          <img src="path/to/abstract1.jpg" alt="Abstract 1" class="gallery-img">
+        </div>
+        <div class="gallery-item" data-category="abstract">
+          <img src="path/to/abstract2.jpg" alt="Abstract 2" class="gallery-img">
+        </div>
+
+        <!-- Perjalanan -->
+        <div class="gallery-item" data-category="travel">
+          <img src="path/to/travel1.jpg" alt="Travel 1" class="gallery-img">
+        </div>
+        <div class="gallery-item" data-category="travel">
+          <img src="path/to/travel2.jpg" alt="Travel 2" class="gallery-img">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Portfolio Fotografi. Semua hak cipta dilindungi.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
