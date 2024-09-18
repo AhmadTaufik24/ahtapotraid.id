@@ -405,3 +405,59 @@ nav ul li a {
   font-weight: bold;
   cursor: pointer;
 }
+.testimonials, .services {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials h2, .services h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.8em;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.testimonial-item, .service-item {
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.testimonial-item:hover, .service-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-item p {
+  font-style: italic;
+  margin: 0;
+  font-size: 1.1em;
+  color: #666;
+}
+
+.testimonial-item cite {
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #333;
+  font-size: 0.9em;
+  text-align: right;
+}
+
+.service-item h3 {
+  margin: 10px 0 5px;
+  color: #007BFF;
+  font-size: 1.4em;
+}
+
+.service-item p {
+  color: #555;
+  line-height: 1.5;
+}
