@@ -464,3 +464,8 @@ nav ul li a {
   color: #555;
   line-height: 1.5;
 }
+
+header p.photography {
+    margin-top: -41px; /* Sesuaikan nilai ini agar lebih dekat */
+    font-size: 1.1rem;
+    font-weight: lighter;
