@@ -24,6 +24,9 @@
     text-align: center;
     margin-bottom: 0.5rem;
   }
+header p{
+  padding: 1rem 0;
+}
   
   nav ul {
     display: flex;
